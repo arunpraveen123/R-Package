@@ -5,7 +5,7 @@ library(reshape2)
 library(data.table)
 library(ggplot2)
 
-# Load data
+# Load 
 movie_data <- fread("movies.csv", stringsAsFactors = FALSE)
 rating_data <- fread("ratings.csv")
 
