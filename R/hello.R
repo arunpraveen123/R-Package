@@ -63,7 +63,7 @@ server <- function(input, output, session) {
     data.frame(Movie_Title = recommended_titles)
   })
 
-  # Display the recommendations in a table
+  # Display the recommendation in a table
   output$recommendation_table <- renderTable({
     recommendations()
   })
